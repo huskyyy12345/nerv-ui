@@ -47,7 +47,7 @@ CRT phosphor colors — they glow against true black. Each has exactly one job:
 
 Colors exist in isolation — no blending, no gradients. When systems are under stress, colors invade each other's space.
 
-### Typography — NO HELVETICA
+### Typography
 
 | Face | Role |
 |------|------|
@@ -56,7 +56,7 @@ Colors exist in isolation — no blending, no gradients. When systems are under 
 | **JetBrains Mono** | All data readouts, terminal text, tables |
 | **Saira Extra Condensed** | WARNING stamps, emergency banners |
 
-The mechanical compression (`scaleX(0.78–0.85)`) on heavy serif titles is the signature EVA look. No Helvetica anywhere.
+The mechanical compression (`scaleX(0.78–0.85)`) on heavy serif titles is the signature EVA look.
 
 ### CRT Effects
 
@@ -114,7 +114,6 @@ Just want the CRT look? Use `components/crt-effects.css` standalone and add `<di
 | Don't | Do |
 |-------|-----|
 | Gray/navy backgrounds | True black (#000) |
-| Helvetica | Use the specified font stack |
 | Decorative 3D wireframes | Data-driven visualizations |
 | Smooth gradients | Hard boundaries, stepped blocks |
 | Rounded corners | Sharp corners (except LEDs) |
